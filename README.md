@@ -3,7 +3,7 @@
 A simple cv portfolio use html5 and css3
 
 ## Description
-A simple portfolio cv with user registration. 
+A simple portfolio cv after course openclassroom. 
 
 ## Contributors
 
