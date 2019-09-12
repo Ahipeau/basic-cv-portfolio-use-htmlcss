@@ -1,0 +1,98 @@
+/* Définition des polices personnalisées */
+@font-face {
+    font-family: font1;
+    src: url(sansation/SansationLight.woff);
+  }
+
+  
+/* Eléments principaux de la page */
+body {
+    background-image: url("images/background-cv.jpg");
+}
+
+  h1, h2, p, ul{
+    font-family: font1;
+  }
+
+
+/* Corps */
+body
+ {
+	 margin: 0;
+ }
+
+ h2 {
+     color: #6a4d47;
+ }
+  
+ .profil
+ {
+	 display: flex;
+ }
+ .liseret 
+ {
+  
+	 float: left;
+	 width:100px;
+	 height: 948px;
+	 background-color: #6a4d47;
+ }
+  
+  
+ .titre
+ {
+	 margin: auto;
+	 text-align: center;
+  
+ }
+  
+ .header
+ {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: row-reverse;
+  
+ }
+  
+  
+ section
+ {
+	 display: flex;
+	 justify-content: center;
+	 vertical-align: top;
+  
+ }
+  
+ h3
+ {
+	 text-align: center;
+  
+ }
+  
+ article
+ {
+	 align-items: center;
+	 text-align: justify;
+	 width: 250px;
+	 margin: 1em;
+	 padding: 0.5em;
+	 border-radius: 5px 5px 5px 5px;
+  
+ } 
+
+
+@media only screen and (max-width: 600px) {
+	.liseret {
+		display: none;
+	  }
+
+	  section {
+		  display: block;
+	  }
+	  article {
+		  width: auto;
+		  margin: auto;
+		  align-items: unset;
+		  text-align: inherit;
+	  }
+  }
